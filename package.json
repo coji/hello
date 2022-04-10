@@ -1,0 +1,32 @@
+{
+  "name": "@coji/hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coji/hello.git"
+  },
+  "author": "coji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coji/hello/issues"
+  },
+  "homepage": "https://github.com/coji/hello",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  }
+}
